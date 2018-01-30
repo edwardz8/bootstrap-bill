@@ -31,12 +31,17 @@
   .profile-pic {
     max-width: 12rem;
   }
+
+  h3 {
+    padding-bottom: 2rem;
+  }
+
   .bg-1 {
        background-color: #474e5d; /* Dark Blue */
         color: #ffffff;
     }
     .bg-2 {
-     background-color: #1abc9c; /* Green */
+     background-color: #474e5d; /* Green */
      color: #ffffff;
  }
  .bg-3 {
@@ -49,6 +54,21 @@
     color: #ffffff;
     width: 100%;
 }
+
+  .twitch {
+    max-width: 32rem;
+    padding-bottom: 2rem;
+  }
+
+  .tech {
+    max-width: 20rem;
+    padding: 2rem;
+  }
+
+  .ror {
+    padding-top: 3rem;
+  }
+
   </style>
 </head>
 
@@ -61,13 +81,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand glyphicon glyphicon-flash" href="#">Portfolio</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -79,40 +99,97 @@
      <h3>JavaScript, Database and API Developer</h3>
    </div>
 
+
 <div class="container-fluid bg-3 text-center">
   <h3>My Projects</h3>
   <div class="row">
     <div class="col-sm-4">
-      <p>Lorem ipsum..</p>
-      <img src="birds1.jpg" alt="Image">
+      <h3>Twitch</h3>
+      <img class="twitch" src="img/twitch.png" alt="Image">
+      <div>
+      <a class="btn btn-primary" href="http://zedwards-twitch.surge.sh">Demo</a>
+      <a class="btn btn-success" href="https://github.com/edwardz8/12-twitch">Code</a>
     </div>
+    </div>
+
     <div class="col-sm-4">
-      <p>Lorem ipsum..</p>
-      <img src="birds2.jpg" alt="Image">
+      <h3>Space & Paddle</h3>
+      <img class="twitch" src="img/surf.png" alt="Image">
+      <div>
+      <a class="btn btn-primary" href="http://surf-paddle-blog.surge.sh">Demo</a>
+      <a class="btn btn-success" href="https://github.com/edwardz8/12-twitch">Code</a>
     </div>
+    </div>
+
     <div class="col-sm-4">
-      <p>Lorem ipsum..</p>
-      <img src="birds3.jpg" alt="Image">
+      <h3>Ribbiter</h3>
+      <img class="twitch" src="img/twitch.png" alt="Image">
+      <div>
+      <a class="btn btn-primary" href="">Demo</a>
+      <a class="btn btn-success" href="https://github.com/edwardz8/ribbiter-api">Code</a>
     </div>
+    </div>
+
   </div>
 </div>
 
+<!-- About Me Section -->
+
 <div class="container-fluid bg-2 text-center">
 <h3>About Me</h3>
-<p>Lorem ipsum..</p>
+  <div class="row">
+    <div class="col-md-6">
+      <p>Education</p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+    <div class="col-md-6">
+      <p>Employment</p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    </div>
+</div>
+</div>
+
+
+<!-- Tech Section -->
+
+<div class="container-fluid bg-3 text-center">
+  <h3>My Tech</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <img class="tech" src="img/node_logo.png" alt="Node">
+  </div>
+  <div class="col-sm-4">
+    <img class="tech" src="img/js_logo.png" alt="JavaScript">
+</div>
+<div class="col-sm-4">
+  <img class="tech" src="img/ember_logo.png" alt="Ember">
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+  <img class="tech" src="img/vue_logo.png" alt="Vue">
+</div>
+<div class="col-sm-4">
+  <img class="tech" src="img/mysql_logo.png" alt="MySQL">
+</div>
+<div class="col-sm-4">
+  <img class="tech ror" src="img/ror_logo.png" alt="RoR">
+</div>
+</div>
 </div>
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid">
-  <h3 class="text-center">Contact</h3>
-  <p class="text-center"><em>We love our fans!</em></p>
+  <h3 class="text-center">Contact Me</h3>
+  <p class="text-center"><em></em></p>
 
   <div class="row">
     <div class="col-md-4">
-      <p>Fan? Drop a note.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+      <p>Interested in hearing more. I'd love to share.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Tennessee, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: 865-985-6848</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: edwardz8@yahoo.com</p>
     </div>
     <div class="col-md-8">
       <div class="row">
